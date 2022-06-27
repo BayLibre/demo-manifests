@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote  name="aosp" fetch="https://android.googlesource.com/" />
+    <default revision="refs/tags/android-12.0.0_r32" remote="aosp" />
+
+    <project path="device/generic/common" name="device/generic/common" groups="pdk" />
+</manifest>
