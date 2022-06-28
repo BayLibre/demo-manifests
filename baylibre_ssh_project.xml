@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote  name="gitlab" fetch="ssh://git@gitlab.com" />
+    <default revision="main" remote="gitlab" />
+
+    <project path="project-jobs/rita" name="baylibre-ci/concourse-ci/projects-jobs/rita.git" />
+</manifest>
