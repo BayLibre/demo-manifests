@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote  name="aosp" fetch="https://android.googlesource.com/" />
+    <default revision="refs/tags/android-13.0.0_r62" remote="aosp" />
+
+    <project path="device/generic/common" name="device/generic/common" groups="pdk" />
+    <project path="device/google/atv" name="device/google/atv" groups="device,broadcom_pdk,generic_fs,pdk" />
+    <project path="device/google/cuttlefish" name="device/google/cuttlefish" groups="device,pdk" />
+    <project path="device/google/trout" name="device/google/trout" groups="device,trout,gull,pdk" />
+    <project path="device/ti/beagle_x15" name="device/ti/beagle-x15" groups="device,beagle_x15,pdk" />
+</manifest>
