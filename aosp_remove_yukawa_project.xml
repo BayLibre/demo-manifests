@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote  name="aosp" fetch="https://android.googlesource.com/" />
+    <remote  name="baylibre" fetch="https://gitlab.baylibre.com/baylibre/amlogic/atv/aosp/" />
+    <default revision="refs/tags/android-13.0.0_r62" remote="aosp" />
+
+    <project path="device/amlogic/yukawa" name="device/amlogic/yukawa" groups="device,yukawa,pdk" />
+
+    <remove-project name="device/amlogic/yukawa" />
+    <project path="device/amlogic/yukawa" name="device/amlogic/yukawa" remote="baylibre" revision="0f3423ec0c103d113c2c03953b3a79bb479fd5b7" />
+</manifest>
