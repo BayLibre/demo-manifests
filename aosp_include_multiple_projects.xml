@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="aosp_device_fixed.xml" />
+    <include name="aosp_include_level_1.xml" />
+
+    <remote name="github" fetch="https://github.com/" />
+
+    <project path="external/tinyhal" name="CirrusLogic/tinyhal" remote="github" revision="69d47887c13da461bf8400231a1c7f7290826037" />
+</manifest>
