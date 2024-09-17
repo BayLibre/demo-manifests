@@ -2,7 +2,7 @@
 <manifest>
     <include name="aosp_include_level_2.xml" />
 
-    <remote name="github" fetch="https://github.com/" />
+    <remote name="optee_github" fetch="https://github.com/" revision="refs/tags/3.21.0" />
 
-    <project path="vendor/linaro/optee_client" name="OP-TEE/optee_client" remote="github" revision="refs/tags/3.21.0" />
+    <project path="vendor/linaro/optee_client" name="OP-TEE/optee_client" remote="optee_github" />
 </manifest>
