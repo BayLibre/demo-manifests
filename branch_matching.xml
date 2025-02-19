@@ -2,5 +2,5 @@
 <manifest>
     <remote name="github" fetch="https://github.com/" />
 
-    <project path="rev" name="makohoek/demo-manifests.git" remote="github" revision="rev" />
+    <project path="rev" name="baylibre/demo-manifests.git" remote="github" revision="rev" />
 </manifest>
